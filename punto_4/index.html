@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Punto 4 - Juego de Manzanas</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="info">
+      <div class="textos">
+        <div class="sistema" id="sistema"></div>
+
+        <div class="ayuda">
+          <div class="titulo">Ayuda</div>
+          <span id="ayuda"></span>
+        </div>
+
+        <div class="estadisticas">
+          <div class="titulo">Estadisticas</div>
+          <span id="estadisticas"></span>
+        </div>
+      </div>
+
+      <div class="imagenCtx" id="imagenCtx">
+        <img src="./imagenes/default.gif" alt="Imagen de motivación" class="imagen" />
+      </div>
+
+      <button class="btn continuar" id="continuar" type="button">
+        <img src="imagenes/continuar.svg" alt="continuar" />
+        <div>Continuar</div>
+      </button>
+
+      <button class="btn restablecer" id="resetear" type="button">
+        <img src="imagenes/restablecer.svg" alt="restablecer" />
+        <div>Restablecer</div>
+      </button>
+    </div>
+
+    <div class="contenedorConjuntos">
+      <div class="conjuntos">
+        <div class="conjunto" id="conjunto1">
+          <div class="manzanas"></div>
+          <div class="valor"></div>
+        </div>
+
+        <div class="signo">+</div>
+
+        <div class="conjunto" id="conjunto2">
+          <div class="manzanas"></div>
+          <div class="valor"></div>
+        </div>
+      </div>
+
+      <div class="respuestas">
+        <button class="respuesta conjunto" id="respuesta1" disabled>
+          <div class="manzanas"></div>
+          <div class="valor"></div>
+        </button>
+
+        <button class="respuesta conjunto" id="respuesta2" disabled>
+          <div class="manzanas"></div>
+          <div class="valor"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

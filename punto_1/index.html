@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Punto 1 - Recorrido de la tierra</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>Calcular la rotación de la tierra</h1>
+
+
+
+      <div class="contenedor">
+        <form class="formulario">
+          <label class="slider labelHoras">
+            <div>
+              <p class="pValor">12</p>
+              <p>Horas</p>
+            </div>
+            <input type="range" min="0" max="23" class="rangeEntrada" />
+          </label>
+
+          <label class="slider labelMinutos">
+            <div>
+              <p class="pValor">30</p>
+              <p>minutos</p>
+            </div>
+            <input type="range" min="0" max="59" class="rangeEntrada" />
+          </label>
+
+          <label class="slider labelSegundos">
+            <div>
+              <p class="pValor">50</p>
+              <p>segundos</p>
+            </div>
+            <input type="range" min="0" max="59" class="rangeEntrada" />
+          </label>
+        </form>
+
+        <div class="separador"></div>
+
+        <div class="resultado">
+          <div>Rotación:</div>
+          <div class="divResultado">293°</div>
+        </div>
+      </div>
+      <script src="js/index.js"></script>
+    </div>
+  </body>
+</html>
