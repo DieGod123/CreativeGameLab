@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 3</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <hr>
+
+    <div class="contenedorPrincipal">
+        <div class="contenedorEquipos">
+            <h2>Registrar partido</h2>
+            
+            <br>
+            <br>
+            <form action="">
+                <label for="equipoLocal">Equipo local</label>
+                <select name="equipoLocal" id="equipoLocal">
+                    <option value="A">Equipo A</option>
+                    <option value="B">Equipo B</option>
+                    <option value="C">Equipo C</option>
+                </select>
+                <label for="equipoVisitante">Equipo visitante</label>
+                <select name="equipoVisitante" id="equipoVisitante">
+                    <option value="A">Equipo A</option>
+                    <option value="B">Equipo B</option>
+                    <option value="C">Equipo C</option>
+                </select>
+                <br>
+                <br>
+                <label>Goles local</label>
+                <input type="number" name="golesLocal" id="golesLocal" min="0" required>
+                <label>Goles visitante</label>
+                <input type="number" name="golesVisitante" id="golesVisitante" min="0" required>
+                <br>
+                <br>
+                <input type="submit" value="Jugar" id="jugar1" class="jugar">
+                <input type="submit" value="Limpiar" id="limpiar" class="jugar">
+            </form>
+        </div>
+
+        <div class="contenedorimagen">
+            <img src="images/futbol11.png" alt="futbolimg">
+        </div>
+
+    </div>
+
+
+    <hr>
+    <br>
+    <h2>Tabla resultados</h2>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th id="th">Equipo</th>
+                <th id="th">PJ</th>
+                <th id="th">PG</th>
+                <th id="th">PP</th>
+                <th id="th">PE</th>
+                <th id="th">GF</th>
+                <th id="th">GC</th>
+                <th id="th">Puntos</th>
+            </tr>
+        <tbody id="tbody">
+            <tr>
+                <td id="td">A:</td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+            </tr>
+            <tr>
+                <td id="td">B:</td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+            </tr>
+            <tr>
+                <td id="td">C:</td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+                <td id="td"></td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+
+    <script src="js/codigo.js"></script>
+
+</body>
+
+</html>
