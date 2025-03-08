@@ -158,5 +158,8 @@ function calcularPrecio(
     precio: precio,
     horaEntrada: `${horaEntrada}:${minutoEntrada} h`,
     horaSalida: `${horaSalida}:${minutoSalida} h`,
+    // Calcula He y Hs
+    He: Math.floor(tiempoEntrada),
+    Hs: Math.ceil(tiempoSalida),
   };
 }
