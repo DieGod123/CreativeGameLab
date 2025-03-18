@@ -48,12 +48,16 @@ h1{
 }
 
 .imgSocial{
-    width: 25%;
-    height: 25%;
+    width: 5%;
+    height: 5%;
     object-fit: fill;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    
 
     &:hover{
         transform: scale(1.1);
@@ -70,6 +74,6 @@ footer{
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    display: inline-flex;
+    display: block;
     justify-content: space-between;
 }
