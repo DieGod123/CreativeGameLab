@@ -1,3 +1,3 @@
 # CreativeGameLab
-pruebas 
-![Alfredo](https://github.com/user-attachments/assets/112b6032-2358-41a0-98c4-4d43f0867027)
+Devs:
+![AndresP](https://github.com/user-attachments/assets/cf04fbf4-4eda-41e1-a461-6d2ffc1fc4b4)
